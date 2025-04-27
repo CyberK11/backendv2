@@ -12,7 +12,7 @@ import imageDetectionRoute from "./routes/image-detection-route";
 import residentAdminValidationUpdateRoute from "./routes/resident-admin-update-validation-route";
 import verificationCodeRoute from "./routes/verification-code-route";
 const app: Application = express();
-const PORT = 3000;
+const PORT = 3500;
 
 const allowedOrigins = [
   "https://barangay-ly7m.onrender.com",
